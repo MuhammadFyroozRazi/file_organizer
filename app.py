@@ -19,6 +19,7 @@ window.geometry('420x250+150+250')
 window.maxsize('600','350')
 window.minsize('420','250')
 window.attributes('-topmost',1)
+window.iconbitmap('./icon/file_organizer.ico')
 
 
 target_label=ttk.Label(master=window,text='Target Path')
